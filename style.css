@@ -34,8 +34,9 @@ body{
 .image{
     width: 200px;
     height: 200px;
-    background-color: yellow;
     border-radius: 50%;
+    background:url("asset/20250103173947_IMG_8580.JPG") ;
+    background-size: cover;
 }
 
 .txt{
@@ -62,5 +63,28 @@ body{
     font-size: 4rem;
     cursor: pointer;
     color: #fff;
+}
+
+@media (max-width:500px) {
+    .container {
+        padding: 1rem; 
+    }
+    .txt h1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:380px) {
+    .links {
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+    .links a {
+        font-size: 3rem;
+    }
+    .txt2 h1 {
+        font-size: 1.5rem;
+        line-height: 1.2rem;
+    }
+
 }
 
