@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rubik+Glitch+Pop&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: "Orbitron", sans-serif;
 }
 
 body{
@@ -21,11 +24,10 @@ body{
     width: 80%;
     height: 80%;
     padding: 3rem;
-    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     color: #fff;
 }
 
@@ -35,3 +37,30 @@ body{
     background-color: yellow;
     border-radius: 50%;
 }
+
+.txt{
+    text-align: center;
+}
+.txt2{
+    text-align: center;
+    position: absolute;
+    bottom: 8%;
+}
+.txt2 h1{
+    line-height: 1.7rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+.links a{
+    font-size: 4rem;
+    cursor: pointer;
+    color: #fff;
+}
+
